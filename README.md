@@ -2,7 +2,7 @@
 ###### Solving the problem of calibrating the camera of a mobile robot in the "field" conditions using the libraries torch, OpenCV, etc.
 Camera calibration implies finding internal (camera focus f in pixel dimensions and its skew γ) and external camera parameters.
 
-![focus](img/image1.png) ![Skew](img/image2.jpg)
+![focus](img/image11.png) ![Skew](img/image22.jpg)
 
 There are currently 4 ways to calibrate the camera:
 1. Photogrammetric calibration
@@ -21,7 +21,7 @@ Solution steps:
 
 1. Determining the calibration object in the video stream using YOLOv3 and coco dataset and saving the frame (at least two frames are required)
 2. Image filtering to find key points
-    ![special points](img/image4.png)
+    ![special points](img/image44.png)
     The study showed that the most accurate angle detector is *Harris* in the illumination range *>200lx*. The X and Y coordinates are located at the corners of the STOP sign, the origin is at any corner, the axis Z = 0.
 
 3. Using Zhang's method to find the internal parameters of the camera.
