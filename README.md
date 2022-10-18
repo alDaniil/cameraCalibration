@@ -1,5 +1,5 @@
-##cameraCalibration
-######Solving the problem of calibrating the camera of a mobile robot in the "field" conditions using the libraries torch, OpenCV, etc.
+## cameraCalibration
+###### Solving the problem of calibrating the camera of a mobile robot in the "field" conditions using the libraries torch, OpenCV, etc.
 Camera calibration implies finding internal (camera focus f in pixel dimensions and its skew γ) and external camera parameters.
 ![focus](img/image1.png) ![Skew](img/image2.jpg)
 
